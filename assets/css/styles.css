@@ -1,16 +1,16 @@
 :root {
-  --bg: #f3f6fb;
+  --bg: #f9f3f7;
   --surface: #ffffff;
-  --surface-alt: #edf4ff;
-  --primary: #0f5ed7;
-  --primary-strong: #0b4fb4;
-  --primary-soft: #eaf2ff;
-  --gray-900: #1f2937;
-  --gray-700: #4b5563;
-  --gray-500: #6b7280;
-  --gray-300: #dfe7f2;
-  --shadow-sm: 0 8px 18px rgba(15, 40, 70, 0.06);
-  --shadow-md: 0 12px 32px rgba(15, 40, 70, 0.12);
+  --surface-alt: #f8edf7;
+  --primary: #a33bb5;
+  --primary-strong: #7f2a8d;
+  --primary-soft: #f5e9fb;
+  --gray-900: #2a1b2d;
+  --gray-700: #5e4a66;
+  --gray-500: #79657d;
+  --gray-300: #eadfe9;
+  --shadow-sm: 0 8px 18px rgba(89, 29, 92, 0.08);
+  --shadow-md: 0 12px 32px rgba(89, 29, 92, 0.14);
   --radius: 16px;
 }
 
@@ -89,7 +89,7 @@ img {
   flex-direction: column;
   height: 100%;
   background: var(--surface);
-  border: 1px solid rgba(15, 94, 215, 0.08);
+  border: 1px solid rgba(163, 59, 181, 0.08);
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow-sm);
@@ -99,14 +99,14 @@ img {
 .article-card:hover {
   transform: translateY(-6px);
   box-shadow: var(--shadow-md);
-  border-color: rgba(15, 94, 215, 0.18);
+  border-color: rgba(163, 59, 181, 0.18);
 }
 
 .article-image {
   width: 100%;
   height: 190px;
   object-fit: cover;
-  background: linear-gradient(135deg, #dfeeff 0%, #edf4ff 100%);
+  background: linear-gradient(135deg, #f0def8 0%, #f8ecf5 100%);
 }
 
 .article-content {
